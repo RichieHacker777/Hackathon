@@ -1,2 +1,2 @@
 # Ta'lim 
-# Xalq ta'limidagi raqamli eko sistema 
+# Xalq Ta'limidagi Raqamli Eko Sistema 
