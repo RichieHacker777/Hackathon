@@ -5,9 +5,9 @@
 #include <tchar.h>
 //---------------------------------------------------------------------------
 USEFORM("UnitParents.cpp", FormParents);
-USEFORM("UnitPlastic.cpp", FormPlastic);
-USEFORM("UnitTerminal.cpp", FormTerminal);
-USEFORM("UnitInfinityCard.cpp", FormInfinityCard);
+USEFORM("..\Talim\Talim\UnitPlastic.cpp", FormPlastic);
+USEFORM("..\Talim\Talim\UnitTerminal.cpp", FormTerminal);
+USEFORM("D:\Infinity Card\UnitInfinityCard.cpp", FormInfinityCard);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

@@ -125,38 +125,38 @@
         <CppCompile Include="Infinity Card.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
+        <CppCompile Include="UnitInfinityCard.cpp">
+            <Form>FormInfinityCard</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>UnitInfinityCard.h</DependentOn>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
         <CppCompile Include="UnitParents.cpp">
             <Form>FormParents</Form>
             <FormType>dfm</FormType>
             <DependentOn>UnitParents.h</DependentOn>
             <BuildOrder>4</BuildOrder>
         </CppCompile>
-        <CppCompile Include="..\Talim\Talim\UnitPlastic.cpp">
+        <CppCompile Include="UnitPlastic.cpp">
             <Form>FormPlastic</Form>
             <FormType>dfm</FormType>
-            <DependentOn>..\Talim\Talim\UnitPlastic.h</DependentOn>
+            <DependentOn>UnitPlastic.h</DependentOn>
             <BuildOrder>3</BuildOrder>
         </CppCompile>
-        <CppCompile Include="..\Talim\Talim\UnitTerminal.cpp">
+        <CppCompile Include="UnitTerminal.cpp">
             <Form>FormTerminal</Form>
             <FormType>dfm</FormType>
-            <DependentOn>..\Talim\Talim\UnitTerminal.h</DependentOn>
+            <DependentOn>UnitTerminal.h</DependentOn>
             <BuildOrder>5</BuildOrder>
         </CppCompile>
         <PCHCompile Include="D:\Infinity Card\Infinity CardPCH1.h">
             <BuildOrder>1</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
-        <CppCompile Include="D:\Infinity Card\UnitInfinityCard.cpp">
-            <Form>FormInfinityCard</Form>
-            <FormType>dfm</FormType>
-            <DependentOn>D:\Infinity Card\UnitInfinityCard.h</DependentOn>
-            <BuildOrder>2</BuildOrder>
-        </CppCompile>
         <FormResources Include="UnitParents.dfm"/>
-        <FormResources Include="..\Talim\Talim\UnitPlastic.dfm"/>
-        <FormResources Include="..\Talim\Talim\UnitTerminal.dfm"/>
-        <FormResources Include="D:\Infinity Card\UnitInfinityCard.dfm"/>
+        <FormResources Include="UnitPlastic.dfm"/>
+        <FormResources Include="UnitTerminal.dfm"/>
+        <FormResources Include="UnitInfinityCard.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
